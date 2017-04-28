@@ -14,6 +14,8 @@
 		F84B835B1EB3FD3D006B4D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84B83591EB3FD3D006B4D8A /* LaunchScreen.storyboard */; };
 		F84B83661EB3FD3D006B4D8A /* MVVMiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B83651EB3FD3D006B4D8A /* MVVMiOSTests.swift */; };
 		F84B83711EB3FD3D006B4D8A /* MVVMiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B83701EB3FD3D006B4D8A /* MVVMiOSUITests.swift */; };
+		F84B837F1EB3FE08006B4D8A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B837E1EB3FE08006B4D8A /* Car.swift */; };
+		F84B83811EB3FE3D006B4D8A /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B83801EB3FE3D006B4D8A /* CarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F84B836C1EB3FD3D006B4D8A /* MVVMiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84B83701EB3FD3D006B4D8A /* MVVMiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMiOSUITests.swift; sourceTree = "<group>"; };
 		F84B83721EB3FD3D006B4D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84B837E1EB3FE08006B4D8A /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		F84B83801EB3FE3D006B4D8A /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F84B83571EB3FD3D006B4D8A /* Assets.xcassets */,
 				F84B83591EB3FD3D006B4D8A /* LaunchScreen.storyboard */,
 				F84B835C1EB3FD3D006B4D8A /* Info.plist */,
+				F84B837E1EB3FE08006B4D8A /* Car.swift */,
+				F84B83801EB3FE3D006B4D8A /* CarViewModel.swift */,
 			);
 			path = MVVMiOS;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				F84B83531EB3FD3D006B4D8A /* ViewController.swift in Sources */,
 				F84B83511EB3FD3D006B4D8A /* AppDelegate.swift in Sources */,
+				F84B837F1EB3FE08006B4D8A /* Car.swift in Sources */,
+				F84B83811EB3FE3D006B4D8A /* CarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +522,7 @@
 				F84B83771EB3FD3D006B4D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F84B83781EB3FD3D006B4D8A /* Build configuration list for PBXNativeTarget "MVVMiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				F84B837A1EB3FD3D006B4D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F84B837B1EB3FD3D006B4D8A /* Build configuration list for PBXNativeTarget "MVVMiOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				F84B837D1EB3FD3D006B4D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
